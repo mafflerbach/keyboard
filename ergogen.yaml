@@ -1,0 +1,65 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 0
+      columns:
+        c1:
+          stagger: 0
+        c2:
+          stagger: 0
+        c3:
+          stagger: 4
+        c4:
+          stagger: 2
+        c5:
+          stagger: -2
+        c6:
+          stagger: -4
+
+      rows:
+        r1:
+        r2:
+        r3:
+        r4:
+
+    thumbcluster:
+      anchor:
+        ref: matrix_c6_r1
+        shift: [16, -25]
+        rotate: -16
+      columns:
+        c1:
+        c2:
+          
+      rows:
+        r1:
+        r2:
+              
+    modifyerZone:
+      anchor:
+        rotate: -4
+        shift: [10, -25]
+      columns:
+        c1:
+        c2:
+        c3:
+        c4:
+        
+        c5:
+      rows:
+        r5:
+      
+                    
+    innerPair:
+      anchor:
+        rotate: 0
+        ref: matrix_c6_r3
+        shift: [19, -10]
+      columns:
+        c1:
+          
+      rows:
+        r5:
+
+        r6:
